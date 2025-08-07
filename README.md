@@ -26,12 +26,18 @@ Co-Editor allows multiple users to join a room and collaborate on code simultane
 
 ## 📦 Installation
 
-1. Clone the repository:
+To run **Co-Editor** locally, follow these steps:
 
-   ```bash
-   git clone https://github.com/Arpit06k/co-editor.git
-   cd co-editor
-2.Install dependencies: npm install
-3.Start the frontend: npm run start:front
-4.Start the backend (in another terminal): npm run server:dev
+```bash
+# 1. Clone the repository
+git clone https://github.com/Arpit06k/co-editor.git
+cd co-editor
 
+# 2. Install dependencies (for both frontend and backend)
+npm install
+
+# 3. Start the frontend development server
+npm run start:front
+
+# 4. In a separate terminal, start the backend server (Express + Socket.io)
+npm run server:dev
