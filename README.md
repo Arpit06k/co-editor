@@ -31,3 +31,7 @@ Co-Editor allows multiple users to join a room and collaborate on code simultane
    ```bash
    git clone https://github.com/Arpit06k/co-editor.git
    cd co-editor
+2.Install dependencies: npm install
+3.Start the frontend: npm run start:front
+4.Start the backend (in another terminal): npm run server:dev
+
